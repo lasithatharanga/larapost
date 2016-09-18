@@ -16,7 +16,7 @@
 
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-file-text" aria-hidden="true"></i> Add Post</a></li>
+                <li><a href="/create"><i class="fa fa-file-text" aria-hidden="true"></i> Add Post</a></li>
 
             </ul>
         </div><!-- /.navbar-collapse -->
