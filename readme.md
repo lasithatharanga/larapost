@@ -1,9 +1,9 @@
 # LaraPost Testing and Learining Laravel PHP Framework
 
-Database details
-DB_DATABASE=larapost
-DB_USERNAME=larauser
-DB_PASSWORD=larapass
+#Database details
+#DB_DATABASE=larapost
+#DB_USERNAME=larauser
+#DB_PASSWORD=larapass
 
 first migrate database
 then seed

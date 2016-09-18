@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('posts.index');
-});
+Route::get('/', [
+    'uses' => 'PostController@getIndex',
+    'as' => 'posts.index'
+]);
+
+Route::get('/create', [
+    'uses' => 'PostController@create',
+    'as' => 'posts.create'
+]);
+
+Route::post('/create', [
+    'uses' => 'PostController@createPost',
+    'as' => 'posts.create'
+]);
